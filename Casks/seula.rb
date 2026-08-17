@@ -16,7 +16,7 @@ cask "seula" do
   # Seula updates itself through Sparkle. Without this, `brew upgrade` would
   # reinstall over a version Sparkle had already replaced.
   auto_updates true
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Seula.app"
 
