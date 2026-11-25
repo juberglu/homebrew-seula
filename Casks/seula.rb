@@ -1,6 +1,6 @@
 cask "seula" do
-  version "1.3.0"
-  sha256 "41f85e58c2adc0420bc127e8d25d7867802c83cf26c368cbccb701b23c15e38d"
+  version "1.4.0"
+  sha256 "2395c4845753f56455b51c0f7130e2e3be32731a4d66cbe9c884e85590a3f71d"
 
   url "https://github.com/juberglu/seula-releases/releases/download/v#{version}/Seula-#{version}.dmg",
       verified: "github.com/juberglu/seula-releases/"
